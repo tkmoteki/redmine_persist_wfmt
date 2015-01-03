@@ -1,8 +1,8 @@
 gem 'rails-render_hooks'
 
 group :development, :test do
-  gem 'rspec', '~> 2.14.0'
-  gem 'rspec-rails'
+#  gem 'rspec', '~> 2.11.0'
+#  gem 'rspec-rails'
   gem 'coveralls'
   gem 'pry'
   gem 'pry-rails'
@@ -14,7 +14,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'poltergeist'
+#  gem 'poltergeist'
   gem 'launchy'
   gem 'database_cleaner'
 end
